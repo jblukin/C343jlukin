@@ -1,0 +1,10 @@
+Example 1 total Count for 10: 100; Runtime Ratio: 10
+Example 4 total Count for 10: 40; Runtime Ratio: 4
+Example 1 total Count for 100: 10000; Runtime Ratio: 100
+Example 4 total Count for 100: 700; Runtime Ratio: 7
+Example 1 total Count for 1000: 1000000; Runtime Ratio: 1000
+Example 4 total Count for 1000: 10000; Runtime Ratio: 10
+Example 1 total Count for 10000: 100000000; Runtime Ratio: 10000
+Example 4 total Count for 10000: 140000; Runtime Ratio: 14
+Example 1 total Count for 100000: 1410065408; Runtime Ratio: 14100
+Example 4 total Count for 100000: 1700000; Runtime Ratio: 17

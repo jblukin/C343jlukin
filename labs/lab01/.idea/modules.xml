@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CountingInstructions/CountingInstructions.iml" filepath="$PROJECT_DIR$/../CountingInstructions/CountingInstructions.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab01.iml" filepath="$PROJECT_DIR$/lab01.iml" />
     </modules>
   </component>
