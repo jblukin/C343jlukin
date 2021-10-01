@@ -122,19 +122,13 @@ public class HuffmanTree<Key, E> {
 	public String decode(String inCode) {
 		String outStr = "";
 		BinaryNodeKV<Integer, String> currentNode = root;
-//		if (currentNode.isLeaf()) {
-//			System.out.println("Decoding not possible. Huffman Tree empty!");
-//			return "";
-//		}
-		// System.out.println("about to decode the Huffman code: " + inCode);
-		// System.out.println("using the tree: " + root.inorder());
+		if (currentNode.isLeaf()) {
+			System.out.println("Decoding not possible. Huffman Tree empty!");
+			return "";
+		}
 		
-		// Lab 06 TODO: implement this method!
-		//
-		// hint: you'll need to use the Huffman tree
-		//       stored in the currentNode local variable
-		
-		String dictKey = "";
+		 System.out.println("about to decode the Huffman code: " + inCode);
+		 System.out.println("using the tree: " + root.inorder());
 		
 		for (int i = 0; i < inCode.length(); i++) {
 			
