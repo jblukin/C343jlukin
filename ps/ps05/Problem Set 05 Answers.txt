@@ -1,0 +1,30 @@
+A) 1. Breadth First Search
+
+
+B) 1.   A(0 0 1 0 1 0)
+	B(0 0 1 0 0 1)
+	C(1 1 0 1 0 1)
+	D(0 0 1 0 0 1)
+	E(1 0 0 0 0 1)
+	F(0 1 1 1 1 0)
+
+2. 	
+	A -> C -> D
+	B -> C -> F
+	C -> A -> B -> D -> F
+	D -> C -> F
+	E -> A- > F
+	F -> B -> C -> D -> E
+
+
+3. B -> C -> A -> E -> F -> D
+
+4. B -> C -> F -> A -> D -> E
+
+C) All traversal: A-C, A-D, A-F, A-E, C-D, C-G, G-D, G-B, D-B
+
+	Quickest traversal: A-C, C-G, G-B
+
+D) All traversal: A-B, A-E, A-G, G-B, G-E, G-D, D-C, D-E, D-F
+
+	Quickest traversal: A-G, G-D, D-F
